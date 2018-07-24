@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>My portfolio</title>
+    <link href="main.css" type="text/css" rel="stylesheet"/>
+    <link href="css/page2.css" type="text/css" rel="stylesheet"/>
+      <script src="jquery-3.2.1.js"></script>  
+      <link href="js/jquery.fullPage.css" type="text/css" rel="stylesheet"/>
+      <script src="js/jquery.fullPage.js"></script> 
+  </head>
+  <body>
+      
+      <div id="wrapper">
+
+          <div class="section" data-anchor="page1" > 
+              
+             
+                  <div class="slide-particle" id="particles-js" data-anchor="slide1-1"> 
+                      <img class="imagecenter transform" id="monimage1" onclick="delay ('page2.html')" src="img/LogoEpaissiBlanc.png">
+                  </div>
+              
+          </div>
+      
+      </div>
+      <nav class="firstnav">
+      </nav>
+
+      
+     <script type="text/javascript" src="main.js">  </script>   
+ 
+    <script>
+      $(document).ready(function(){
+          $('#wrapper').fullpage();
+          $.fn.fullpage.silentMoveTo(2);
+          
+      })
+      </script>  
+         <script type="text/javascript" src="js/particles.js">  </script>
+    <script type="text/javascript" src="js/particles.min.js">  </script>
+    <script type="text/javascript" src="js/app.js">  </script>
+  </body>
+</html>
+
