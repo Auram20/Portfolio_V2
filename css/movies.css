@@ -1,0 +1,32 @@
+.carousel-item 
+{
+ margin: auto;
+
+
+}
+
+#moncarousel 
+{
+ height: 500px;
+ width: 800px;
+ margin: auto;
+
+}
+
+
+#carouselExampleIndicators
+{
+  padding-bottom: 50px;
+}
+
+	
+#titremovies{
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 50px;
+	color: white;
+}
+
+#iconsdecarousel{
+	height: 600px;
+}

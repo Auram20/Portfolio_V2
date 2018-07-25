@@ -1,0 +1,21 @@
+.carousel-item 
+{
+ height: 450px;
+ width: 800px;
+ margin: auto;
+
+}
+
+#moncarousel 
+{
+ height: 500px;
+ width: 1000px;
+ margin: auto;
+
+}
+
+
+#carouselExampleIndicators
+{
+  padding-bottom: 40px;
+}

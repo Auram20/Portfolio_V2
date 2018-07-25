@@ -66,3 +66,25 @@ $("#monimage1").click(function() {
 function delay (URL) {
     setTimeout( function() { window.location = URL }, 2000 );
 }
+
+
+//////
+
+(function($){
+  // variables
+  elementWidth = $('ul').width(),
+  containerWidth = $('nav').width(),
+  difference = elementWidth-containerWidth,
+  finalWidth = difference * 1.5,
+  element = $('ul');
+  
+  // active on click
+  $('li').on('click', function(){
+    $('li').removeClass('active');
+    $(this).addClass('active');
+  });
+  
+})(jQuery);
+
+
+/// WEB 
