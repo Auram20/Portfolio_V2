@@ -7,7 +7,7 @@
 
 #moncarousel 
 {
- height: 500px;
+ height: 600px;
  width: 800px;
  margin: auto;
 
@@ -21,9 +21,7 @@
 
 	
 #titremovies{
-	position: absolute;
-	margin-left: 400px;
-	margin-top: 50px;
+	text-align: center;
 	color: white;
 }
 
