@@ -95,4 +95,28 @@ body{
 }
 
 
+#monimage2{
+  width: 100px;
+  height: auto;
+}
+
+#modalmediaq{
+    display: none;
+    text-align: center;
+}
+
+@media (max-width: 1000px){
+    #wrapper{
+        display: none;
+    }
+
+    #modalmediaq{
+        padding-top: 20px;
+        display:block;
+    }
+
+    
+}
+
+
 

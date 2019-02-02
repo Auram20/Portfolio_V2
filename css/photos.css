@@ -58,3 +58,32 @@ h1{
     margin-top: 10%;
 
 }
+
+
+
+.carousel-item
+{
+ margin: auto;
+
+
+}
+
+#moncarousel2 
+{
+ height: 600px;
+ width: 1000px;
+ margin: auto;
+ padding-top: 100px;
+
+}
+
+
+#carouselExampleIndicators
+{
+  padding-bottom: 50px;
+}
+
+  
+#iconsdecarousel{
+  height: 200px;
+}
